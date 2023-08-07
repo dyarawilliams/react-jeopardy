@@ -1,0 +1,22 @@
+.jeopardy-clue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    height: 200px;
+    padding: 5px;
+    transition: all 2s ease-in;
+}
+
+.dollar-value {
+    font-size: 2em;
+}
+
+.dollar-value:hover {
+    transition: transform 2.5s;
+    transform-style: preserve-3d;
+    transform: rotateY(360deg);
+}
