@@ -4,7 +4,9 @@ Jeopardy is an American game show created by [Merv Griffin](https://en.wikipedia
 
 Here's a picture of the layout from the game bord since November 26, 2001: 
 
-<img src="https://en.wikipedia.org/wiki/File:Jeopardy!_game_board_US.svg" alt="Image from Wikipedia" width="1000" />
+<div align="center">
+    <img src="src/assets/img/jeopardy-game-board.png" alt="Game board of Jeopardy" width="500" />
+</div>
 
 ## Table of Contents
 
