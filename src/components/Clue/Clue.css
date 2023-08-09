@@ -1,22 +1,32 @@
+.jeopardy-clue-container {
+    width: 50vw;
+    height: 50vh;
+    padding: 0 4rem;
+    position: absolute;
+    left: calc(100vw - 75%);
+    top: 20%;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    border: 10px solid black;
+    z-index: 1;
+}
+
 .jeopardy-clue {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    text-align: center;
     color: white;
-    font-size: 1em;
+    font-size: 2rem;
     cursor: pointer;
-    height: 200px;
-    padding: 5px;
-    transition: all 2s ease-in;
+    height: 150px;
+    padding: 2rem;
 }
 
 .dollar-value {
-    font-size: 2em;
-}
-
-.dollar-value:hover {
-    transition: transform 2.5s;
-    transform-style: preserve-3d;
-    transform: rotateY(360deg);
+    font-size: 4rem;
+    background-color: blue;
+    color: rgb(215,160,75);
+    font-weight: 800;
 }

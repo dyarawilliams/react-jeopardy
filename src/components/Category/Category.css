@@ -1,18 +1,16 @@
 .jeopardy-category {
     display: grid;
-    grid-template-rows: 100px repeat(5, 1fr);
-    gap: 3px;
-    background-color: white;
+    grid-template-rows: 130px repeat(5, 1fr);
+    gap: 10px;
+    background-color: black;
 }
 
 .jeopardy-category h2 {
     background-color: blue;
     color: white;
-    margin: 0;
-    padding: 10px;
     text-align: center;
     font-family: 'Georgia', serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 
