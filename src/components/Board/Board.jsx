@@ -11,14 +11,16 @@ function Board() {
             let offset = Math.floor(Math.random() * 28175) + 1
 
             // Fetch the categories from the API.
-            const categoryUrl = `http://jservice.io/api/categories?count=6&offset=${offset}`;
+            // const categoryUrl = `https://react-jeopardy.onrender.com/api/categories?count=6&offset=${offset}`;
+            const categoryUrl = `http://localhost:5000/api/categories?count=6&offset=${offset}`;
 
             const categoryResponse = await fetch(categoryUrl);
             const categoryData = await categoryResponse.json();
 
             // Fetch the clues for each category.   
             const categoriesWithClues = await Promise.all(categoryData.map(async (category) => {
-                const clueUrl = `http://jservice.io/api/clues?category=${category.id}`;
+                // const clueUrl = `https://react-jeopardy.onrender.com/api/clues?category=${category.id}`;
+                const clueUrl = `http://localhost:5000/api/clues?category=${category.id}`;
                 const clueResponse = await fetch(clueUrl);
                 const clueData = await clueResponse.json();
 

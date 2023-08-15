@@ -5,6 +5,10 @@ const app = express();
 
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send('Welcome to CORS server 😁')
+})
+
 app.get('/test', (req, res) => {
     res.send('CORS-enabled server is running!');
 });
