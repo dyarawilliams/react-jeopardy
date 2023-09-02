@@ -2,7 +2,7 @@
 
 Jeopardy is an American game show created by [Merv Griffin](https://en.wikipedia.org/wiki/Merv_Griffin). The show is a quiz competition that reverses the traditional question-and-answer format of many quiz shows. Rather than being given questions, contestants are instead given general knowledge clues in the form of answers and they must identify the person, place, thing, or idea that the clue describes, phrasing each response in the form of a question. Jeopardy Game that allows you to fully interact with the UI and have some fun.
 
-Here's a picture of the layout from the game bord since November 26, 2001: 
+Here's the original layout from the game board since November 26, 2001: 
 
 <div align="center">
     <img src="src/assets/img/jeopardy-game-board.png" alt="Game board of Jeopardy" width="500" />
